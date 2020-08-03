@@ -1,0 +1,39 @@
+
+// Base
+
+
+@import './base/normalize';
+
+// utils
+@import './utils/breakpoints';
+
+@import './utils/variables';
+@import './utils/placeholders';
+@import './utils/is-hidden';
+@import './utils/mixins';
+@import './base/general';
+
+
+// Components
+
+
+
+ @import "./components/header";
+// @import './components/logo';
+// @import './components/hero';
+// @import './components/button';
+// @import './components/sectionStyles';
+// @import './components/features';
+// @import './components/products';
+// @import './components/team';
+//  @import './components/socialicons';
+// @import './components/clients';
+// @import './components/footer';
+
+
+// @import './components/main/modal';
+
+// @import './mobile/index';
+// @import './tablet/index';
+// @import './desktop/index';
+
