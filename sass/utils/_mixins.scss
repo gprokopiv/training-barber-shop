@@ -1,9 +1,9 @@
-// @mixin centeredFlex ($display: flex, $align-items: center, $justify-content: center) {
-//     display: $display;
-//     align-items: $align-items;
-//     justify-content: $justify-content;
+ @mixin centeredFlex ($display: flex, $align-items: center, $justify-content: center) {
+     display: $display;
+    align-items: $align-items;
+   justify-content: $justify-content;
     
-// }
+ }
 
 // // @include centeredFlex();
 // // @include centeredFlex($align-items: baseline);

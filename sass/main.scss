@@ -12,6 +12,8 @@
 @import './utils/is-hidden';
 @import './utils/mixins';
 @import './base/general';
+@import './components/section';
+
 
 
 // Components
@@ -20,6 +22,8 @@
 
  @import "./components/header";
  @import "./components/about-us";
+ @import "./components/button";
+
 
 
 // @import './components/logo';

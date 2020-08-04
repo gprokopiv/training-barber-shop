@@ -2,7 +2,31 @@
     display: flex;
     justify-items: center;
     align-items: center;
-    width: 160px;
-    height: 40px;
+
+    padding: 12px 20px;
+    // width: 160px;
+    // height: 40px;
     border-radius: 25px;
+    cursor: pointer;
+
+
+   
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+    color: #303030;
+
+    transition: color $animation-duration $animation-timing-function,
+    border-color  $animation-duration $animation-timing-function;
+
+    &:hover,
+    &:focus {
+    color: #FFFFFF;
+    border-color: #FF6C00;
+    outline: none;
     }
+
+}
