@@ -248,31 +248,58 @@ summary {
   display: list-item;
 }
 
-body {
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
   margin: 0;
-  font-family: Open Sans, Raleway, sans-serif;
-  color: #303030;
-  background-color: fffff;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
-  body {
+  .container {
     max-width: 480px;
+    padding-left: 31px;
+    padding-right: 31px;
     background-color: orange;
   }
 }
 
 @media screen and (min-width: 768px) {
-  body {
+  .container {
     max-width: 768px;
+    padding-left: 39px;
+    padding-right: 39px;
     background-color: blue;
   }
 }
 
-@media screen and (min-width: 1280px) {
-  body {
-    max-width: 1280px;
+@media screen and (min-width: 1200px) {
+  .container {
     background-color: green;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
+}
+
+.menu-info {
+  font-family: Open Sans;
+  font-style: 400;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
 }
 /*# sourceMappingURL=main.css.map */
