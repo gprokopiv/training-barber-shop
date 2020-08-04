@@ -1,7 +1,9 @@
 
 .menu-info {
-    // position: relative;
-
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    
     margin: 0;
     padding: 0;
     font-family: Open Sans;
@@ -22,9 +24,7 @@
 
     &::before {
         content: "";
-        // position: absolute;
-        // left: 0;
-        // top: 8px;
+        
         display: inline-flex;
 
         width: 1px;
@@ -34,15 +34,9 @@
         background-color: #303030;
         margin-right: 50px;
        
-        transform: rotate(90deg);
-        transition: transform $animation-duration $animation-timing-function;
-
+       
     }
 
-    &:hover::before,
-    &:focus::before {
-        transform: rotate(90deg);
-    }
 }
 
 .about-us__description {
