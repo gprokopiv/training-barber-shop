@@ -38,30 +38,75 @@ img {
   list-style: none;
   }
 
-.container {
-  outline: solid tomato;  
-   margin-left: auto;
-  margin-right: auto;
-  
-  @media screen and (min-width: 480px) {
-  max-width: 480px;
-  // padding-left: 31px;
-  // padding-right: 31px;
-  padding: 84px 31px;
-  }
-  
-  @media screen and (min-width: 768px) {
-  max-width: 768px;
-  padding-left: 39px;
-  padding-right: 39px;
-  background-color: blue;
 
+    // body {
+//     margin: 0;
+//     font-family: Open Sans, Raleway, sans-serif;
+//     color: #303030;
+//     background-color: fffff;
+
+
+//     @media screen and (min-width: $mobile) {
+//         max-width: $mobile;
+//         background-color: orange;
+      
+//       }
+
+//       @media screen and (min-width: $tablet) {
+       
+//         max-width: $tablet;
+//         background-color: blue;
+//           }
+//      @media screen and (min-width: $desktop) {
+//             max-width: $desktop;
+//             background-color: green;
+//               }
+
+// }
+
+
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
   }
-  @media screen and (min-width: 1200px) {
+
+  
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  }
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid tomato;  
+
+    
+    @media screen and (min-width: $mobile) {
+    max-width: $mobile;
+    padding: 84px 31px;
+    background-color: yellow;
+
+    
+    }
+    
+    @media screen and (min-width: $tablet) {
+    max-width: $tablet;
+    padding: 100px 39px;
     background-color: green;
 
-  max-width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  }
-  }
+  
+    }
+    
+    @media screen and (min-width: $desktop) {
+    
+    max-width: $desktop;
+    padding: 130px 55px;
+    background-color: blue;
+
+    }
+    
+    }

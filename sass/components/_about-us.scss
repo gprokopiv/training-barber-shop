@@ -1,12 +1,16 @@
 
+
+
+
+
+
+
 .menu-info {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
     
-    margin: 0;
-    padding: 0;
-    font-family: Open Sans;
+      
     font-style: 400;
     font-weight: 600;
     font-size: 11px;
@@ -14,7 +18,7 @@
     letter-spacing: 0.1em;
     text-transform: uppercase;
     
-    color: #303030;
+    color: $primary-text-color;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
@@ -26,14 +30,13 @@
         content: "";
         
         display: inline-flex;
-
-        width: 1px;
-        height: 60px;
+        width: 60px;
+        height: 1px;
         background-repeat: no-repeat;
         background-position: center;
-        background-color: #303030;
-        margin-right: 50px;
-       
+        background-color: $primary-text-color;
+        margin-right: 20px;
+
        
     }
 
@@ -44,15 +47,15 @@
     margin-bottom: 40px;
 
     font-family: Open Sans;
-    font-size: 16px;
-    line-height: 1.62;
+    font-size: 14px;
+    line-height: 1.85;
     letter-spacing: 0.02em;
 
-    color: #555555;
+    color: $secondary-text-color;
+        p:first-child {
+            font-size: 16px;
+            line-height: 1.62;
+            padding-bottom: 20px;
+        }
 }
 
-.about-us__text {
-
-font-size: 14px;
-line-height: 1.85;
-}

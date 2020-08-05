@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./css/main.min.css " /> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./css/main.min.css " /> 
 
     <title>BarberShop</title>
 </head>
@@ -41,23 +42,24 @@
       </div>
   
       <main>
-        <div class="container">
-          <button type="button" data-modal-open>Открыть</button>
-        </div>
-  
+      
         <section class="section about-us">
           <div class="container">
+          <div class="thumb"> 
+            <img
+            srcset="./images/beard1.jpg 1x, ./images/beard2.jpg 2x" src="./images/beard1.jpg" alt="beard" width="270" height="445">
+          </div>
+          <img srcset="./images/haircut 270w" src="./images/haircut1.jpg" alt="haircut">
+
             <p class="menu-info">О НАС</p>
             <h2 class="section-title">Лучший Барбершоп </br> твоего города</h2>
-  <div class="about-us__description">
-    <p class="">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.
-
-    </p>
-    <p>Мы команда, которая никогда не останавливается на достигнутом 
-      и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
-      то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-  </div>
-            <button class="button" type="button">онлайн-запись</button>
+            <div class="about-us__description">
+              <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам. </p>
+              <p>Мы команда, которая никогда не останавливается на достигнутом 
+                и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
+                то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+            </div>
+            <button class="button button-primary" type="button">онлайн-запись</button>
           </div>
         </section>
   
