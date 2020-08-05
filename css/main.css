@@ -312,12 +312,7 @@ img {
   color: #303030;
 }
 
-p {
-  margin: 0;
-  padding: 0;
-}
-
-.menu-info {
+.section-name {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -327,6 +322,7 @@ p {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 20px;
   font-style: 400;
   font-weight: 600;
   font-size: 11px;
@@ -334,16 +330,10 @@ p {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #303030;
-  display: inline-flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
-.menu-info::before {
+.section-name::before {
   content: "";
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
   width: 60px;
   height: 1px;
   background-repeat: no-repeat;
@@ -369,13 +359,6 @@ p {
 }
 
 .button {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   padding: 12px 20px;
   border-radius: 25px;
   cursor: pointer;
@@ -396,15 +379,15 @@ p {
 
 .button-primary {
   color: #303030;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .button-primary:hover, .button-primary:focus {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .button-secondary {
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #303030;
 }
 /*# sourceMappingURL=main.css.map */

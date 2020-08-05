@@ -5,11 +5,12 @@
 
 
 
-.menu-info {
+.section-name {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    
+ 
+    margin-bottom: 20px;
       
     font-style: 400;
     font-weight: 600;
@@ -19,26 +20,19 @@
     text-transform: uppercase;
     
     color: $primary-text-color;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
-
-    // @include centeredFlex();
 
 
-    &::before {
-        content: "";
+    
+        &::before {
+            content: "";
+            width: 60px;
+            height: 1px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: $primary-text-color;
+            margin-right: 20px;
         
-        display: inline-flex;
-        width: 60px;
-        height: 1px;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-color: $primary-text-color;
-        margin-right: 20px;
-
-       
-    }
+        }
 
 }
 

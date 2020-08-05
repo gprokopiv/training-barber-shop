@@ -1,47 +1,39 @@
 .button {
-    display: flex;
-    justify-items: center;
-    align-items: center;
-// @include centeredFlex();
-
     padding: 12px 20px;
     border-radius: 25px;
     cursor: pointer;
-   
+  
     font-weight: 600;
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    border-color: #FF6C00;
-
-
+    border-color: $accent-color;
+  
     transition: color $animation-duration $animation-timing-function,
-    background-color  $animation-duration $animation-timing-function;
-    // @include transition($animation-name: color, $animation-name:  background-color);
-
-        &:hover,
-        &:focus {
-        background-color: #FF6C00;
-        outline: none;
-        }
-    
-        // кнопка на білому фоні
-        &-primary {
-            color: #303030;
-            background-color: #FFFFFF;
-        
-
-            &:hover,
-            &:focus {
-            color: #FFFFFF;
-            }
-        }
-   
-        // кнопка на темному фоні
-        &-secondary {
-            color: #FFFFFF;
-            background-color: #303030;
-            
-        }
-}
+      background-color $animation-duration $animation-timing-function;
+  
+    &:hover,
+    &:focus {
+      background-color: $accent-color;
+      outline: none;
+    }
+  
+    // кнопка на білому фоні
+    &-primary {
+      color: $primary-text-color;
+      background-color: $primary-background-color;
+  
+      &:hover,
+      &:focus {
+        color: $title-text-color;
+      }
+    }
+  
+    // кнопка на темному фоні
+    &-secondary {
+      color: $title-text-color;
+      background-color: $primary-text-color;
+    }
+  }
+  
