@@ -1,43 +1,17 @@
 
-
-
-
-
-
-
-.section-name {
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
- 
+.about-us { 
+    &-title {
     margin-bottom: 20px;
-      
-    font-style: 400;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 1.36;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+
     color: $primary-text-color;
-
-
-    
-        &::before {
-            content: "";
-            width: 60px;
-            height: 1px;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-color: $primary-text-color;
-            margin-right: 20px;
-        
-        }
-
 }
-
-.about-us__description {
-    margin-top: 20px;
+    
+    &-description {
     margin-bottom: 40px;
 
     font-family: Open Sans;
@@ -52,4 +26,7 @@
             padding-bottom: 20px;
         }
 }
-
+}
+p {
+    margin: 0;
+}

@@ -260,6 +260,36 @@ img {
   list-style: none;
 }
 
+.section-name {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+  font-style: 400;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.section-name::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #303030;
+  margin-right: 20px;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -302,9 +332,8 @@ img {
   }
 }
 
-.section-title {
-  margin-top: 20px;
-  margin-bottom: 0px;
+.title {
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.17;
@@ -312,38 +341,17 @@ img {
   color: #303030;
 }
 
-.section-name {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.about-us-title {
   margin-bottom: 20px;
-  font-style: 400;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.36;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
   color: #303030;
 }
 
-.section-name::before {
-  content: "";
-  width: 60px;
-  height: 1px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #303030;
-  margin-right: 20px;
-}
-
-.about-us__description {
-  margin-top: 20px;
+.about-us-description {
   margin-bottom: 40px;
   font-family: Open Sans;
   font-size: 14px;
@@ -352,10 +360,14 @@ img {
   color: #555555;
 }
 
-.about-us__description p:first-child {
+.about-us-description p:first-child {
   font-size: 16px;
   line-height: 1.62;
   padding-bottom: 20px;
+}
+
+p {
+  margin: 0;
 }
 
 .button {
