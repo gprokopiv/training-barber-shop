@@ -5,7 +5,9 @@
             display: flex;
         }
     }
-    
+    &-text {
+        margin-left: 30px;
+      }
     &-title {
     margin-bottom: 20px;
     margin-top: 0;
@@ -39,37 +41,181 @@
                 font-size: 18px;
                 line-height: 30px;
                            
-        }}
+        }
     }
+}
  p {
       margin: 0;
     }
 }
+
  .samples-pictures {
         @media (max-width: $tablet) {
             display: none;
         }
-        @media (min-width: $tablet) {
-            width: 328px;
-            height: 233px;
-            background-image: url('haircutdesktop.jpg');
-            background-repeat: no-repeat;
-            background-size: contain;       
-            border: 2px solid #e9385a; }
-        
-            @media (min-width: $desktop) {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                width: 270px;
-                height: 445px;
-                background-image: url('haircutdesktop.jpg');
-                background-repeat: no-repeat;
-                background-size: contain;       
-                border: 2px solid #e9385a; }
+        .samples-shave + .samples-haircut {
+            @media (min-width: $tablet){ 
+                margin-bottom: 30px;
+            }
+
+        }  
     }
-  
+//   .samples-shave {
+//     @media (min-width: $tablet){ 
+//         margin-bottom: 30px;
+
+//            width: 328px;
+//            height: 233px;
+        //    background-image: url(../img/haircut.jpg), url(../img/beard.jpg);
+        // background-image: url(../img/haircut2.jpgjpg);
+        // background-image: url(../img/haircut2.jpg.jpg);
+
+        // background-image: url(../img/img_2.jpg);
+
+        // background: url(../img/img_1.jpg) left top no-repeat, url(../img/img_2.jpg) right bottom no-repeat;
+        //    background-size: contain;
+        //     background-repeat: no-repeat;
+
+
+                // @media screen and (min-device-pixel-ratio: 2),
+                // screen and (min-resolution: 192dpi),
+                // screen and (min-resolution: 2dppx) {
+                
+                //     background-image: url(../img/haircut2.jpg);
+//                 }
+// }}
+// }
+// .samples-haircut { @media (min-width: $tablet){ 
+//     width: 328px;
+//     height: 233px;
+//     background-image: url(../img/haircut.jpg), url(../img/bearddesktop.jpg);
+//      background-size: contain;
+//      background-repeat: no-repeat;
+//      background: url(img_tree.gif) left top no-repeat, url(img_flwr.gif) right bottom no-repeat, url(paper.gif) left top repeat;
+//      background-size: 50px, 130px, auto;
+//    }
+
+//          @media screen and (min-device-pixel-ratio: 2),
+//          screen and (min-resolution: 192dpi),
+//          screen and (min-resolution: 2dppx) {
+         
+//              background-image: url(../img/haircut2.jpg), url(../img/beard2.jpg);
+//          }
+// }
+// }
+//      @media screen and (min-device-pixel-ratio: 2),
+//   screen and (min-resolution: 192dpi),
+//   screen and (min-resolution: 2dppx) {
+//   .samples-pictures {
+//     background-image: url(../img/haircut2.jpg), url(../img/beard2.jpg);
+
+// }
+
+// #div2 {
+//   background: url(img_flower.jpg);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+// }}
+
+// @media screen and (min-device-pixel-ratio: 2),
+//   screen and (min-resolution: 192dpi),
+//   screen and (min-resolution: 2dppx) {
+//   .box {
+//     background-image: url('photo@2x.png');
+//   }
+// }}
+        // .samples-shave {
+        //     margin-right: 30px;
+
+        //     @media (min-width: $tablet){
+        //         width: 328px;
+        //         height: 233px;
+        //         background-image: url(../img/haircut.jpg);
+        //         background-image: url(../img/haircut2.jpg);
+
+        //         background-position: center;
+        //         background-repeat: no-repeat;
+        //     background-size: contain;       
+        //     border: 2px solid #e9385a; }
+           
+        //     @media (min-width: $desktop) {
+        //         display: flex;
+        //         flex-direction: column;
+        //         justify-content: center;
+        //         align-items: center;
+        //         width: 270px;
+        //         height: 445px;
+        //         background-image: url(../img/haircutdesktop.jpg);
+        //         background-image: url(../img/haircutdesktop@2x.jpg);
+
+        //         background-repeat: no-repeat;
+        //         background-size: contain;       
+        //         border: 2px solid #e9385a; }
+    
+            
+        
+        // }
+        // .samples-haircut {
+        //     .samples-shave {
+        //         @media (min-width: $tablet){
+        //             width: 328px;
+        //             height: 233px;
+        //             background-image: url(../img/beardjpg);
+        //             background-image: url(../img/beard2.jpg);
+    
+        //             background-position: center;
+        //             background-repeat: no-repeat;
+        //         background-size: contain;       
+        //         border: 2px solid #e9385a; }
+               
+        //         @media (min-width: $desktop) {
+        //             display: flex;
+        //             flex-direction: column;
+        //             justify-content: center;
+        //             align-items: center;
+        //             width: 270px;
+        //             height: 445px;
+        //             background-image: url(../img/haircutdesktop.jpg);
+        //             background-image: url(../img/haircutdesktop@2x.jpg);
+    
+        //             background-repeat: no-repeat;
+        //             background-size: contain;       
+        //             border: 2px solid #e9385a; }
+        
+                
+            
+        //     }
+        
+
+        
+//         @media (min-width: $tablet) {
+            
+//             width: 328px;
+//             height: 233px;
+//             background-image: url(../img/haircut.jpg);
+//             background-image: url(../img/beard.jpg);
+//             background-image:    url("https://mdn.mozillademos.org/files/11987/startransparent.gif"), 
+//                        url("https://mdn.mozillademos.org/files/7693/catfront.png");
+//   background-position: 0px 0px,
+//                        center;
+
+            
+        
+            // @media (min-width: $desktop) {
+            //     display: flex;
+            //     flex-direction: column;
+            //     justify-content: center;
+            //     align-items: center;
+            //     width: 270px;
+            //     height: 445px;
+            //     background-image: url(../img/haircut.jpg);
+            //     background-image: url(../img/haircut.jpg);
+
+            //     background-repeat: no-repeat;
+            //     background-size: contain;       
+            //     border: 2px solid #e9385a; }
+    
+            // }
         
               
 //                 display: flex;
@@ -118,6 +264,3 @@
 //   }
 
 
-.about-us-text {
-    margin-left: 30px;
-}
