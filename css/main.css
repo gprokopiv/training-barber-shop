@@ -440,6 +440,20 @@ img {
   margin: 0;
 }
 
+.samples-shave {
+  width: 330px;
+  height: 233px;
+  background-image: url(../img/jpg/tabletehaircut.png);
+}
+
+.samples-pictures {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 570px;
+  margin: 0;
+}
+
 @media (max-width: 768px) {
   .samples-pictures {
     display: none;
@@ -447,8 +461,21 @@ img {
 }
 
 @media (min-width: 768px) {
-  .samples-pictures .samples-shave + .samples-haircut {
-    margin-bottom: 30px;
+  .samples-pictures {
+    border: 2px solid blue;
+    width: 330px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .samples-pictures {
+    border: 2px solid red;
+    width: calc((100% - 30px) / 2);
+    width: 570px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
   }
 }
 
