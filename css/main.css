@@ -341,6 +341,14 @@ img {
   color: #303030;
 }
 
+@media (min-width: 768px) {
+  .about-us .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .about-us-title {
   margin-bottom: 20px;
   margin-top: 0;
@@ -349,6 +357,13 @@ img {
   line-height: 1.17;
   letter-spacing: 0.05em;
   color: #303030;
+}
+
+@media screen and (min-width: 1280px) {
+  .about-us-title {
+    font-size: 42px;
+    line-height: 49px;
+  }
 }
 
 .about-us-description {
@@ -366,8 +381,60 @@ img {
   padding-bottom: 20px;
 }
 
-p {
+@media screen and (min-width: 1280px) {
+  .about-us-description p:first-child {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+.about-us p {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .samples-pictures {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .samples-pictures {
+    width: 328px;
+    height: 233px;
+    background-image: url("haircutdesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #e9385a;
+  }
+}
+
+@media (min-width: 1280px) {
+  .samples-pictures {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 270px;
+    height: 445px;
+    background-image: url("haircutdesktop.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 2px solid #e9385a;
+  }
+}
+
+.about-us-text {
+  margin-left: 30px;
 }
 
 .button {
