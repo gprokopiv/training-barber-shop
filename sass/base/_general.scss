@@ -116,7 +116,7 @@ img {
     @media screen and (min-width: $mobile) {
     max-width: $mobile;
     padding: 84px 31px;
-    background-color: yellow;
+    // background-color: yellow;
 
     
     }
@@ -124,7 +124,7 @@ img {
     @media screen and (min-width: $tablet) {
     max-width: $tablet;
     padding: 100px 39px;
-    background-color: green;
+    // background-color: green;
 
   
     }
@@ -132,8 +132,8 @@ img {
     @media screen and (min-width: $desktop) {
     
     max-width: $desktop;
-    padding: 130px 55px;
-    background-color: blue;
+    padding: 130px 15px;
+    // background-color: blue;
 
     }
     

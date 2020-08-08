@@ -3,15 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css " /> 
+
     <title>Document</title>
 </head>
 <body>
-    <div style="width: 330px; height: 235px; background-color: brown;
+    <section class="section about-us">
+        <div class="container">
+          <div class="samples-pictures">
+            <div class="samples-shave">
+              <!-- <img src="./img/tabletehaircut.webp 1x, ./img/deskcut.webp 2x " alt="стрижка"  width="270" height="445" /> -->
+              <img
+              alt="стрижка" width="270" height="445"
+              src="./img/tableteshave.webp "
+              srcset="
+              ./img/tableteshave.webp 1x,
+              ./img/tableteshave2.webp 2x
+              "
+            />
+            </div>
+            <div class="samples-haircut">
+              <!-- <img src="./img/tableteshave.webp 1x, ./img/tableteshave.webp 2x" alt="стрижка" width="270" height="445" /> -->
+             
+            <img
+            alt="стрижка" width="270" height="445"
+            src="./img/tabletehaircut.webp"
+            srcset="
+            ./img/tabletehaircut.webp 1x,
+            ./img/tabletehaircut2.webp 2x,
+            "
+            />
+            </div>
+          </div>   
+
+          
+
+
+          <div class="about-us-text" >
+            <p class="section-name">О НАС</p>
+            <h2 class="about-us-title">Лучший Барбершоп </br> твоего города</h2>
+            <div class="about-us-description">
+              <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам. </p>
+              <p>Мы команда, которая никогда не останавливается на достигнутом 
+                и жаждет перемен. И когда ты попадешь в руки нашего мастера, 
+                то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне". Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+            </div>
+            <button class="button button-primary" type="button">онлайн-запись</button>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+    <!-- <div style="width: 330px; height: 235px; background-color: brown;
     background-image: url(./img/img_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 660px;
     
     
     ">
 
-    </div>
+    </div> -->
 </body>
 </html>

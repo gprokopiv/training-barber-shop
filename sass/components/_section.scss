@@ -25,31 +25,31 @@
     
 
 
-.samples-pictures {
-    @media (max-width: $tablet) {
-        display: none;
-    }
-    @media (min-width: $tablet) {
-        width: 328px;
-        height: 233px;
-        background-image: url(../img/haircut.jpg);
-        background-image: url(../img/.jpg);
+// .samples-pictures {
+//     @media (max-width: $tablet) {
+//         display: none;
+//     }
+//     @media (min-width: $tablet) {
+//         width: 328px;
+//         height: 233px;
+//         background-image: url(../img/haircut.jpg);
+//         background-image: url(../img/.jpg);
 
-        background-repeat: no-repeat;
-        background-size: contain;       
-        border: 2px solid #e9385a; }
+//         background-repeat: no-repeat;
+//         background-size: contain;       
+//         border: 2px solid #e9385a; }
     
-        @media (min-width: $desktop) {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 270px;
-            height: 445px;
-            background-image: url(../img/haircutdesktop.jpg);
-            background-image: url(../img/bearddesktop@2x.jpg);
+//         @media (min-width: $desktop) {
+//             display: flex;
+//             flex-direction: column;
+//             justify-content: center;
+//             align-items: center;
+//             width: 270px;
+//             height: 445px;
+//             background-image: url(../img/haircutdesktop.jpg);
+//             background-image: url(../img/bearddesktop@2x.jpg);
 
-            background-image: url('haircutdesktop.jpg');
-            background-repeat: no-repeat;
-            background-size: contain;       
-            border: 2px solid #e9385a; }}
+//             background-image: url('haircutdesktop.jpg');
+//             background-repeat: no-repeat;
+//             background-size: contain;       
+//             border: 2px solid #e9385a; }}

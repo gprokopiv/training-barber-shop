@@ -312,7 +312,6 @@ img {
   .container {
     max-width: 480px;
     padding: 84px 31px;
-    background-color: yellow;
   }
 }
 
@@ -320,15 +319,13 @@ img {
   .container {
     max-width: 768px;
     padding: 100px 39px;
-    background-color: green;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .container {
-    max-width: 1280px;
-    padding: 130px 55px;
-    background-color: blue;
+    max-width: 1200px;
+    padding: 130px 15px;
   }
 }
 
@@ -339,50 +336,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.05em;
   color: #303030;
-}
-
-@media (max-width: 768px) {
-  .samples-pictures {
-    display: none;
-  }
-}
-
-@media (min-width: 768px) {
-  .samples-pictures {
-    width: 328px;
-    height: 233px;
-    background-image: url(../img/haircut.jpg);
-    background-image: url(../img/.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 2px solid #e9385a;
-  }
-}
-
-@media (min-width: 1280px) {
-  .samples-pictures {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 270px;
-    height: 445px;
-    background-image: url(../img/haircutdesktop.jpg);
-    background-image: url(../img/bearddesktop@2x.jpg);
-    background-image: url("haircutdesktop.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    border: 2px solid #e9385a;
-  }
 }
 
 @media (min-width: 768px) {
@@ -407,7 +360,7 @@ img {
   color: #303030;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .about-us-title {
     font-size: 42px;
     line-height: 49px;
@@ -429,7 +382,7 @@ img {
   padding-bottom: 20px;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .about-us-description p:first-child {
     font-size: 18px;
     line-height: 30px;
@@ -440,17 +393,8 @@ img {
   margin: 0;
 }
 
-.samples-shave {
-  width: 330px;
-  height: 233px;
-  background-image: url(../img/jpg/tabletehaircut.png);
-}
-
 .samples-pictures {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 570px;
+  padding: 0;
   margin: 0;
 }
 
@@ -460,22 +404,34 @@ img {
   }
 }
 
-@media (min-width: 768px) {
-  .samples-pictures {
-    border: 2px solid blue;
+@media (max-width: 1200px) {
+  .samples-pictures .samples-shave {
+    margin-bottom: 30px;
     width: 330px;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1200px) {
+  .samples-pictures .samples-shave {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
   .samples-pictures {
-    border: 2px solid red;
-    width: calc((100% - 30px) / 2);
-    width: 570px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 190%;
+    height: 445px;
   }
 }
 
